@@ -6,10 +6,12 @@ html, body {
     width: 100%;
     max-width: 100%;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-    max-width: 682px; /* Límite de ancho */
+    /* max-width: 682px; */ /* Límite de ancho */
     margin: 0 auto;   /* Centrado horizontal */
     padding: 0 20px;  /* Espaciado lateral */
     width: 100%;      /* Ocupa el 100% hasta 682px */
@@ -32,21 +34,13 @@ body {
     content: none !important;
 }
 
-header, 
-footer {
-    /* max-width: 682px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 20px; 
-    box-sizing: border-box;  */
-}
 
 /* header */
 header {
     display: flex;
     flex-direction: column;
     font-size: 10%;
-    max-width: 682px;       
+    /* max-width: 682px;   */     
     margin: 0 auto;         
     width: 100%;            
     padding: 0 20px;        
@@ -78,7 +72,7 @@ header {
 
 .header-top > nav > ul > li > a {
     padding: 0%;
-    font-size: 0.8rem;
+    font-size: clamp(1rem, 1.5vw, 1rem);
     text-decoration: none;
     color: rgb(163, 53, 13);
     text-shadow: 
@@ -101,13 +95,13 @@ header {
 
 .header-image > img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 0px 0px 50px 5px black;
 }
 
 .header-text {
-    font-size: 400%;
+    font-size: clamp(400%, 1.5vw, 1rem);
     color: rgb(163, 53, 13);
     text-shadow: 
         -1px -1px 0 black,  
@@ -157,7 +151,7 @@ header {
 
 .category > h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: clamp(2rem, 1.5vw, 1rem);
     color: #2c3e50;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -209,7 +203,7 @@ header {
     background: linear-gradient(135deg, rgba(231, 76, 60, 0.9) 0%, rgba(139, 74, 30, 0.9) 100%);
     border: 3px solid #2c3e50;
     border-radius: 15px;
-    font-size: 0.8em;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     font-weight: 500;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 
@@ -250,7 +244,7 @@ header {
 /* Galería */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas flexibles */
+    grid-template-columns: repeat(2, 1fr); /* Columnas flexibles */
     gap: 30px;
     padding: 20px;
     margin: 0 auto; /* Centrado */
@@ -261,6 +255,7 @@ header {
 }
 
 .category .gallery .bike-item {
+    width: 100%;
     background: white;
     border-radius: 12px;
     overflow: hidden;
@@ -284,7 +279,7 @@ header {
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 0.8em;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     font-weight: bold;
     z-index: 2;
     opacity: 0;
@@ -326,8 +321,9 @@ header {
 
 .category .gallery .bike-item h3 {
     margin: 15px 20px 10px;
-    font-size: 1em;
+    font-size: clamp(1rem, 1.5vw, 1rem);
     color: #2c3e50;
+    
 }
 
 .category .gallery .bike-item h3 a {
@@ -343,7 +339,7 @@ header {
 .category .gallery .bike-item p {
     margin: 0 20px 20px;
     color: #555;
-    font-size: 0.5em;
+    font-size: clamp(0.5rem, 1.5vw, 1rem);
     line-height: 1.5;
 }
 
@@ -367,8 +363,8 @@ footer {
     padding: 0.5rem 0 0;
     margin-top: 2rem;
     border-top: 4px solid #e74c3c;
-    font-size: 0.7rem;
-    max-width: 556px;
+    /* font-size: 0.7rem; */
+    /* max-width: 556px; */
     margin: 0 auto;
     width: 100%;
     padding: 0 20px; 
@@ -400,7 +396,7 @@ footer {
     font-family: 'Bebas Neue', sans-serif;
     color: #e74c3c;
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: clamp(1rem, 1.5vw, 1rem);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -408,12 +404,12 @@ footer {
     list-style: none;
 }
 
-.footer-section li {
+.footer-section ul li {
     margin: 0.3rem 0;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.6rem;
+    font-size: clamp(0.3rem, 0.6rem, 1rem) !important;
 }
 
 .footer-section a {
@@ -483,7 +479,7 @@ footer {
     padding: 1.5rem;
     background: rgba(0, 0, 0, 0.3);
     margin-top: 2rem;
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
 }
 
 #footer-section-logo {
@@ -496,7 +492,7 @@ footer {
 }
 
 .footer-section {
-    font-size: 0.7rem ;
+    font-size: 0.4rem ;
 }
 
 /* Iconos (Font Awesome) */
