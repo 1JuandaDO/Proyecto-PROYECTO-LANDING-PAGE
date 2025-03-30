@@ -8,6 +8,13 @@ html, body {
     position: relative;
 }
 
+main {
+    max-width: 682px; /* Límite de ancho */
+    margin: 0 auto;   /* Centrado horizontal */
+    padding: 0 20px;  /* Espaciado lateral */
+    width: 100%;      /* Ocupa el 100% hasta 682px */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,12 +32,25 @@ body {
     content: none !important;
 }
 
+header, 
+footer {
+    /* max-width: 682px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box;  */
+}
+
 /* header */
 header {
     display: flex;
     flex-direction: column;
     font-size: 10%;
-    margin: 5px;
+    max-width: 682px;       
+    margin: 0 auto;         
+    width: 100%;            
+    padding: 0 20px;        
+    box-sizing: border-box;
 }
 
 .header-top {
@@ -348,6 +368,11 @@ footer {
     margin-top: 2rem;
     border-top: 4px solid #e74c3c;
     font-size: 0.7rem;
+    max-width: 556px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box; 
 }
 
 .footer-container {
