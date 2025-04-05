@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" translate="yes">
     <title>Landing Page MTB</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./style1,1.css">
+    <!-- Estilos modulares -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header>
         <div class="header-top">
-            <img src="./logo-png.png" alt="Logo de MTB Explorer - Bicicletas de montaña">
+            <img src="./logo-png.png" alt="Logo de MTB Explorer - Bicicletas de montaña" class="hover-scale">
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
             <label for="menu-toggle" class="hamburger-btn">
                 <span></span>
@@ -19,16 +26,16 @@
             </label>
             <nav class="nav-header" role="navigation">
                 <ul>
-                    <li><a class="aheader" href="#cross-country">Cross Country</a></li>
-                    <li><a class="aheader" href="#trail">Trail</a></li>
-                    <li><a class="aheader" href="#enduro">Enduro</a></li>
-                    <li><a class="aheader" href="#e-bikes">E-Bikes</a></li>
+                    <li><a class="aheader hover-lift" href="#cross-country">Cross Country</a></li>
+                    <li><a class="aheader hover-lift" href="#trail">Trail</a></li>
+                    <li><a class="aheader hover-lift" href="#enduro">Enduro</a></li>
+                    <li><a class="aheader hover-lift" href="#e-bikes">E-Bikes</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header-image">
-            <img src="https://wallpapercave.com/wp/wp2889084.jpg" alt="Bicicleta MTB">
-            <div class="header-text">
+            <img src="https://wallpapercave.com/wp/wp2889084.jpg" alt="Bicicleta MTB" class="parallax" data-speed="0.5">
+            <div class="header-text animate-on-scroll">
                 <h1>Explore the World with MTB</h1>
                 <h2>Find the perfect bike for your adventure</h2>
             </div>
@@ -37,10 +44,10 @@
     <main>
         <section id="cross-country" class="category">
             <a href=".nav-header" class="skip-link">⏫</a>
-            <h2>Cross Country</h2>
-            <p>Descubre nuestras bicicletas de Cross Country, diseñadas para la velocidad y la eficiencia en terrenos variados.</p>
+            <h2 class="animate-on-scroll">Cross Country</h2>
+            <p class="animate-on-scroll">Descubre nuestras bicicletas de Cross Country, diseñadas para la velocidad y la eficiencia en terrenos variados.</p>
             <div class="gallery">
-                <article class="bike-item" aria-labelledby="bike-title-1.1">
+                <article class="bike-item card animate-on-scroll" aria-labelledby="bike-title-1.1">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwafe14f20/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-9-axs_4216_M160_P01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwc6a01b18/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-9-axs_4216_M160_P01_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
