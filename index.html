@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" translate="yes">
     <title>Landing Page MTB</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style1,1.css">
 </head>
 <body>
     <header>
         <div class="header-top">
-            <img src="./logo-png.png" alt="Logo MTB">
+            <img src="./logo-png.png" alt="Logo de MTB Explorer - Bicicletas de montaña">
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
             <label for="menu-toggle" class="hamburger-btn">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
-            <nav>
+            <nav class="nav-header" role="navigation">
                 <ul>
                     <li><a class="aheader" href="#cross-country">Cross Country</a></li>
                     <li><a class="aheader" href="#trail">Trail</a></li>
@@ -36,10 +36,11 @@
     </header>
     <main>
         <section id="cross-country" class="category">
+            <a href=".nav-header" class="skip-link">⏫</a>
             <h2>Cross Country</h2>
             <p>Descubre nuestras bicicletas de Cross Country, diseñadas para la velocidad y la eficiencia en terrenos variados.</p>
             <div class="gallery">
-                <div class="bike-item">
+                <article class="bike-item" aria-labelledby="bike-title-1.1">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwafe14f20/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-9-axs_4216_M160_P01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwc6a01b18/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-9-axs_4216_M160_P01_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -50,8 +51,8 @@
                        probado en la Copa del Mundo y a la emblemática tija de sillín VCLS 2.0 combinada con ruedas 
                        de carbono DT Swiss ligeras y suspensión RockShox SID de gama alta.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-1.2">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwff49e6ea/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-9_3989_M160_P03.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwcd1624a5/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-9_3989_M160_P03_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -62,8 +63,8 @@
                        en la Copa del Mundo con una horquilla de suspensión prémium RockShox SID SL Select+, ruedas de 
                        carbono DT Swiss y almacenamiento de herramientas integrado de acceso rápido.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-1.3">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwb0bfeac0/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-8_3988_M160_P01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw02b9fbd6/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-8_3988_M160_P01_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -75,8 +76,8 @@
                         ruedas de carbono Reynolds, reservadas habitualmente para montajes de gama alta, esta bicicleta 
                         marca una nueva referencia en su categoría.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-1.4">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw133950d5/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-7_3987_M160_P02.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw5851bd9e/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-7_3987_M160_P02_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -87,8 +88,8 @@
                         Exceed CF y los mejores componentes de su categoría, incluida la sensible horquilla RockShox SID, las 
                         ruedas de aluminio de gama alta de DT Swiss y el cambio Shimano.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-1.5">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw5e6e459a/images/full/2025_FULL_/2025/2025_FULL_exceed_cf-6_3986_M160_P01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw288c27e8/images/top/2025_TOP-1/2025/2025_TOP-1_exceed_cf-6_3986_M160_P01_dt-storage.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -99,8 +100,8 @@
                         integrado preparado para la aventura y diseño con ADN ganador de la Copa del Mundo en un duradero cuadro de 
                         carbono con fiables componentes Fox y Shimano.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-1.6">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw670b8ca5/images/full/2025_FULL_/2025/2025_FULL_grand-canyon_8_4161_M196_P12.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw1ace61bb/images/top/2025_TOP-1/2025/2025_TOP-1_grand-canyon_8_4161_M196_P12_frame.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -111,7 +112,7 @@
                         épicas alpinas de varios días, la Grand Canyon 8 incluye una horquilla de 120 mm de alto rendimiento, tija 
                         telescópica ajustable y opciones de almacenamiento versátiles para hacer realidad tus aventuras más ambiciosas.
                     </p>
-                </div>
+                </article>
             </div>
         </section>
     
@@ -119,7 +120,7 @@
             <h2>Trail</h2>
             <p>Explora nuestras bicicletas de Trail, perfectas para senderos técnicos y largas rutas.</p>
             <div class="gallery">
-                <div class="bike-item">
+                <article class="bike-item" aria-labelledby="bike-title-2.1">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw6bb32bdd/images/full/2025_FULL_/2025/2025_FULL_neuron-on_9_4059_M167_P01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwd4138d83/images/top/2025_TOP-4/2025/2025_TOP-4_neuron-on_9_4059_M167_P01_chassie.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -132,8 +133,8 @@
                         El cuadro de aluminio es el corazón de alto rendimiento de una bicicleta que ofrece una relación calidad-precio 
                         excepcional. Siempre lista para rodar donde tú quieras. Neuron:ON
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-2.2">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwfd02b5f1/images/full/2025_FULL_/2025/2025_FULL_neuron_yh_4010_M118_P12.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw4f99ee0f/images/top/2025_TOP-3/2025/2025_TOP-3_neuron_yh_4010_M118_P12_geo.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -143,8 +144,8 @@
                         Grandes aventuras para ciclistas más pequeños. La Neuron Young Hero es una bicicleta de trail que inspira confianza, 
                         con componentes fiables y una geometría cómoda.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-2.3">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw1fd9751a/images/full/2025_FULL_/2025/2025_FULL_neuron_cf-9_4007_M119_P11.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw63ccc524/images/top/2025_TOP-2/2025/2025_TOP-2_neuron_cf-9_4007_M119_P11_geo-and-wheels.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -154,8 +155,8 @@
                         Planifica aventuras más largas y recorre los senderos de tu zona con la Neuron CF 9, con un cuadro de carbono ligero 
                         y transmisión SRAM inalámbrica.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-2.4">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw5b92c561/images/full/2025_FULL_/2025/2025_FULL_neuron_cf-ltd_4009_M119_P08.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw1686ffc2/images/top/2025_TOP-2/2025/2025_TOP-2_neuron_cf-ltd_4009_M119_P08_geo-and-wheels.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -165,8 +166,8 @@
                         Disfruta de tus aventuras durante todo el día con la Neuron CF LTD con suspensión FOX de gama alta, transmisión SRAM inalámbrica 
                         y ruedas DT Swiss.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-2.5">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwde3a9717/images/full/2025_FULL_/2025/2025_FULL_neuron_5_4003_M118_P08.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw278b3e34/images/top/2025_TOP-3/2025/2025_TOP-3_neuron_5_4003_M118_P08_geo-and-wheels.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -176,8 +177,8 @@
                         La Neuron 5 te ofrece comodidad durante todo el día a un precio competitivo, con geometría y componentes que te permiten planificar 
                         largas aventuras por los caminos..
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-2.6">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw1f90c882/images/full/2025_FULL_/2025/2025_FULL_neuron_6_4004_M118_P09.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwfa7d041a/images/top/2025_TOP-3/2025/2025_TOP-3_neuron_6_4004_M118_P09_geometry.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -187,7 +188,7 @@
                         La Neuron 6 ha demostrado su rendimiento en aluminio con la mejor relación calidad-precio para tu transmisión Shimano y horquilla FOX, 
                         y está diseñada para disfrutar de los senderos sin renunciar a nada.
                     </p>
-                </div>
+                </article>
             </div>
         </section>
     
@@ -195,7 +196,7 @@
             <h2>Enduro</h2>
             <p>Conquista los descensos más exigentes con nuestras bicicletas de Enduro, diseñadas para la agilidad y la resistencia.</p>
             <div class="gallery">
-                <div class="bike-item">
+                <article class="bike-item" aria-labelledby="bike-title-3.1">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwe5cbabf7/images/full/full_2023_/2023/full_2023_3194-1_strive-cfr-underdog_P05_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwba485e04/images/top/3194-1_TOP/2023/3194-1_TOP-2_strive-cfr-underdog_P05_frame-2.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -206,8 +207,8 @@
                         para subir rápidamente por senderos técnicos. Todo es possible gracias a la tecnología Shapeshifter que permite 
                         ajustar la geometría de la bicicleta sobre la marcha. Siempre estará entre las favoritas para subir al podio.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-3.2">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwcd753d0b/images/full/full_2024_/2023/full_2024_3528_torque-cf-9_P01_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw55fe95cd/images/top/3528_TOP-1/2023/3528_TOP-1_torque-cf-9_P01_durability.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -218,8 +219,8 @@
                         radicales y vuela como pocas en el bike park. El cuadro de fibra de carbono y los componentes de gama alta forman 
                         un conjunto de ensueño. Tiene el equilibrio perfecto entre velocidad, resistencia y agilidad.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-3.3">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw336172b6/images/full/2025_FULL_/2025/2025_FULL_torque_6_3978_M113_A01.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw82f0f750/images/top/2025_TOP-1/2025/2025_TOP-1_torque_6_3978_M113_A01_al.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -229,8 +230,8 @@
                         Disfruta del bike park y del enduro con la Torque 6, con suspensión RockShox y frenos Shimano SLX está lista para 
                         enfrentarse a cualquier desafío nada más salir de la caja.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-3.4">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw580d9457/images/full/full_2023_/2023/full_2023_3416_strive-cfr_P04_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw27d60951/images/top/3416_TOP-3/2023/3416_TOP-3_strive-cfr_P04_Downtube.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -240,8 +241,8 @@
                         ¿Buscas una bicicleta ligera construida para ganar carreras de enduro? La acabas de encontrar. Pasa al siguiente nivel 
                         con la Strive CFR y la nueva generación de tecnología de cambios SRAM.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-3.5">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwda282e95/images/full/full_3377_/2024/full_3377_torque-cf-cllctv-fw_P07_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw238f04b3/images/top/3377_TOP-1/2024/3377_TOP-1_torque-cf-cllctv-fw_P07_mullet.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -252,8 +253,8 @@
                         los aterrizajes más extremos y pedalea por los terrenos más complicados en este cohete de fibra de carbono equipado con 
                         los componentes favoritos de Fabio.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-3.6">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw284150a8/images/full/full_2022_/2022/full_2022_strive-cfr_3195_gy-or_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw9f70eb9b/images/top/3195_TOP-1/2022/3195_TOP-1_strive-cfr_gy-or_Shapeshifter.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -262,7 +263,7 @@
                     <p>
                         ¿Quieres una bicicleta para ganar las carreras de enduro más exigentes? La acabas de encontrar. Pasa al siguiente nivel con la Strive CFR y su tecnología Shapeshifter.
                     </p>
-                </div>
+                </article>
             </div>
         </section>
     
@@ -270,7 +271,7 @@
             <h2>E-Bikes</h2>
             <p>Con una bicicleta eléctrica de montaña podrás pasar más tiempo sobre el sillín y disfrutar de más senderos gracias a su potente motor y a su batería integrada. Las e-bikes de montaña son la mejor opción para descubrir nuevos senderos o para enlazar bajadas en tu bike park favorito.</p>
             <div class="gallery">
-                <div class="bike-item">
+                <article class="bike-item" aria-labelledby="bike-title-4.1">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw6a4c54e1/images/full/full_2024_/2024/full_2024_3535_spectral-on-fly-cf-cllctv_M095_P03_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw7189b018/images/top/2024_TOP-1/2024/2024_TOP-1_spectral-on-fly_cf-cllctv_3535_M095_P03_carbon-chassis.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -280,8 +281,8 @@
                         Capacidad para aguantar lo que le eches, prestaciones sin complicaciones y un motor compacto. Si estás buscando una 
                         bicicleta que te siga el ritmo y esté preparada para todo lo que le pongas por delante, aquí la tienes.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-4.2">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw81dd9d1e/images/full/full_2024_/2024/full_2024_3541_neuron-on-fly-cf-7_M166_P03_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw6157248e/images/top/3541_TOP-1/2024/3541_TOP-1_neuron-on-fly-cf-7_M166_P03_frameset.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -291,8 +292,8 @@
                         La Neuron:ONfly CF 7 hace que la velocidad, la comodidad y la agilidad de una e-bike de carbono sean ahora más 
                         asequibles que nunca. Incluye de serie fiables componentes Shimano, SRAM y RockShox.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-4.3">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwae7b7413/images/full/full_2023_/2023/full_2023_3428_strive-on-cfr-underdog_bk-bk_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw045dcc64/images/top/3428_TOP-1/2023/3428_TOP-1_strive-on-cfr-underdog_bk-bk_frame_001.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -302,8 +303,8 @@
                         Vuela en subidas técnicas y disfruta como un niño en los descensos. Esta potente y ligera e-bike de montaña está preparada 
                         para cualquier carrera gracias a su resistencia a prueba de bombas y a su motor Bosch.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-4.4">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwbbe82739/images/full/full_2023_/2023/full_2023_3429_strive-on-cfr_gr-gr_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwc15869b0/images/top/3429_TOP-1/2023/3429_TOP-1_strive-on-cfr_gr-gr_frame_002.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -313,8 +314,8 @@
                         Combinando una geometría enduro ganadora de carreras, un resistente diseño en carbono y un motor Bosch de alta potencia, 
                         la Strive:ON está lista para marcar el mejor tiempo en los senderos más complicados.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-4.5">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw64ab6f6b/images/full/full_2023_/2023/full_2023_3430_strive-on-cfr-ltd_P03_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwebc06f67/images/top/3430_TOP-1/2023/3430_TOP-1_strive-on-cfr-ltd_P03_frame_002.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -324,8 +325,8 @@
                         Diseñadas junto a los mejores riders del mundo, esta máquina de competición es la nueva referencia para carreras de enduro 
                         e-mtb. Vuela por los senderos más técnicos con la potencia instantánea del motor Bosch CX Race.
                     </p>
-                </div>
-                <div class="bike-item">
+                </article>
+                <article class="bike-item" aria-labelledby="bike-title-4.6">
                     <div class="bike-image">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwa52beb2f/images/full/full_2023_/2023/full_2023_3395_neuron-on-6_tq_P5.jpg?sw=1300&sfrm=png&q=90&bgcolor=F2F2F2" class="primary-img" alt="bike1">
                         <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwd1941aa3/images/top/3395_TOP-1/2023/3395_TOP-1_neuron-on-6_tq_frame.jpg?sw=1300&sh=1300&sm=cut&sfrm=jpg&q=80" class="secondary-img" alt="bike1.2">
@@ -335,7 +336,7 @@
                         Haz más rutas con un motor Shimano, un robusto cuadro de aleación, una geometría optimizada para trail y 120/130 mm 
                         de suspensión (en tallas XS-S/M-XL). La Neuron:ON 6 te presta asistencia hora tras hora.
                     </p>
-                </div>
+                </article>
             </div>
         </section>
     </main>
