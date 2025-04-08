@@ -143,6 +143,7 @@ header {
 .header-image > img {
     width: 100%;
     height: var(--header-height);
+    object-fit: cover;
     border-radius: var(--border-radius);
     box-shadow: 0px 0px 50px 5px black;
 }
